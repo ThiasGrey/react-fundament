@@ -2,7 +2,6 @@ import React from 'react'
 import products from '../../data/products'
 
 export default (props) => {
-
     function getProdutosLi() {
         return products.map(
             prod => {
@@ -19,4 +18,6 @@ export default (props) => {
             {getProdutosLi()}
         </ul>
     </div>
+
 }
+
